@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:  rgb(15,23,42);
+    height: 195vh;
+    background-image: url(stars1.png);
+
+}
+.profile{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    transform: translateY(5%);
+    align-items: center;
+    flex-basis: 100%;
+}
+.profile img{
+    height: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: solid 10px #610abe;
+}
+.name{
+    font-size: 40px;
+    color: #fff;
+    padding: 3px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right bottom, #690adc,#0793da);
+    border-radius: 8px;
+    
+    transition: .5s;
+}
+.name:hover{
+    font-size: 50px;
+}
+.pr{
+    font-size: 25px;
+    margin-top: 20px;
+    width: 30%;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    transition: .5s;
+    margin: 20px;
+}
+.pr:hover{
+    font-size: 30px;
+}
+.skills{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill-box{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #680adc4a,#0794da4f);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.skill-box:hover{
+    width: 320px;
+    height: 320px;
+    font-size: 27px;
+    background-image: linear-gradient(to right bottom, #680adc80,#0794da81);
+
+}
+.skill-box p{
+    position: relative;
+    z-index: 2;
+    
+}
+.skill-box i{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+#mobile:hover , #net:hover{
+    font-size: 22px;
+}
+.my-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: #fff;
+    font-size: 40px;
+}
