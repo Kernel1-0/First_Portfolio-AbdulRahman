@@ -249,19 +249,19 @@ a{
 }
 .ic i{
     color: #fff;
-    font-size: 55px;
+    font-size: 70px;
     background-color: #494c4dcd;
     padding: 15px;
     border-radius: 8px;
     transition: .5s;
 }
 .ic i:hover{
-    font-size: 60px;
+    font-size: 80px;
 }
 #tiktok{
-    font-size: 65px;
+    font-size: 80px;
 }
 #tiktok:hover{
-    font-size: 70px;
+    font-size: 90px;
 }
 }
